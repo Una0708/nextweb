@@ -265,7 +265,7 @@ export default function HomePage() {
 
       <textarea
         className="border rounded-lg px-4 py-3"
-        rows="4"
+        rows={4}
         placeholder="Tell us about your project"
       />
 
