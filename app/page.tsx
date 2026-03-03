@@ -298,7 +298,7 @@ export default function HomePage() {
   );
 }
 
-function Feature({ icon, title }) {
+function Feature({ icon, title }: { icon: React.ReactNode; title: string }) {
   return (
     <div className="p-6 rounded-xl bg-gray-50">
       {icon}
