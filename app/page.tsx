@@ -101,21 +101,7 @@ Project: ${message}`
           </div>
         </motion.div>
 
-        <section className="px-10 py-12 bg-white">
-  <div className="max-w-6xl mx-auto text-center">
-    <p className="text-gray-500 mb-6">
-      Trusted by Growing Businesses
-    </p>
-
-    <div className="grid grid-cols-2 md:grid-cols-5 gap-6 items-center opacity-60">
-      <div className="h-10 bg-gray-200 rounded"></div>
-      <div className="h-10 bg-gray-200 rounded"></div>
-      <div className="h-10 bg-gray-200 rounded"></div>
-      <div className="h-10 bg-gray-200 rounded"></div>
-      <div className="h-10 bg-gray-200 rounded"></div>
-    </div>
-  </div>
-</section>
+        
 
       </section>
 
