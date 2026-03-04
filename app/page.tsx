@@ -279,7 +279,9 @@ export default function HomePage() {
 
       {/* Footer */}
       <footer className="px-10 py-10 bg-gray-100 text-center text-sm text-gray-500">
-        © 2026 Altus. All rights reserved.
+        © 2026 Altus SDN BHD. All rights reserved.
+        <p>Malaysia Registered Business</p>
+        <p>SSM Registration: 202601006557 (1668655-W)</p>
       </footer>
 
 <a
