@@ -256,6 +256,48 @@ Project: ${message}`
       </div>
     </div>
 
+    <div className="rounded-2xl overflow-hidden shadow-md">
+  <img
+    src="/project4.webp"
+    alt="Restaurant Website"
+    className="w-full h-56 object-cover"
+  />
+  <div className="p-4">
+    <h3 className="font-semibold">Restaurant Website</h3>
+    <p className="text-sm text-gray-500">
+      Food ordering website design
+    </p>
+  </div>
+</div>
+
+<div className="rounded-2xl overflow-hidden shadow-md">
+  <img
+    src="/project5.webp"
+    alt="Online Course Platform"
+    className="w-full h-56 object-cover"
+  />
+  <div className="p-4">
+    <h3 className="font-semibold">Online Course Platform</h3>
+    <p className="text-sm text-gray-500">
+      Learning platform website
+    </p>
+  </div>
+</div>
+
+<div className="rounded-2xl overflow-hidden shadow-md">
+  <img
+    src="/project6.jpg"
+    alt="Company Landing Page"
+    className="w-full h-56 object-cover"
+  />
+  <div className="p-4">
+    <h3 className="font-semibold">Company Landing Page</h3>
+    <p className="text-sm text-gray-500">
+      Modern business landing page
+    </p>
+  </div>
+</div>
+
   </div>
 </section>
 
