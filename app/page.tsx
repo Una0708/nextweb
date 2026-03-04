@@ -46,9 +46,12 @@ Project: ${message}`
           <a href="#portfolio" className="hover:text-black">Portfolio</a>
           <a href="#contact" className="hover:text-black">Contact</a>
         </div>
-        <button className="rounded-2xl bg-black text-white px-5 py-2">
-          Get Consultation
-        </button>
+        <button
+  onClick={() => scrollToSection("contact")}
+  className="bg-black text-white px-5 py-2 rounded-lg"
+>
+  Get Consultation
+</button>
       </nav>
 
       {/* Hero Section */}
