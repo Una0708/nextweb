@@ -292,6 +292,7 @@ Project: ${message}`
       />
 
       <button
+  type="button"
   onClick={sendToWhatsapp}
   className="bg-black text-white py-3 rounded-lg"
 >
@@ -310,7 +311,7 @@ Project: ${message}`
       </footer>
 
 <a
-  href="https://wa.me/60123456789"
+  href="https://wa.me/60146942145"
   target="_blank"
   className="fixed bottom-6 right-6 flex items-center gap-2 bg-green-500 text-white px-5 py-3 rounded-full shadow-xl z-[9999] hover:scale-105 transition"
 >
