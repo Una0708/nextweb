@@ -1,4 +1,5 @@
 "use client";
+import { useState } from "react";
 const scrollToSection = (id: string) => {
   document.getElementById(id)?.scrollIntoView({
     behavior: "smooth",
@@ -10,6 +11,25 @@ import { motion } from "framer-motion";
 import { Globe, ShoppingCart, MessageSquare, Settings, Check } from "lucide-react";
 
 export default function HomePage() {
+  const [name, setName] = useState("");
+const [phone, setPhone] = useState("");
+const [business, setBusiness] = useState("");
+const [message, setMessage] = useState("");
+const sendToWhatsapp = () => {
+  const text = encodeURIComponent(
+`Hello, I would like to enquire about a website.
+
+Name: ${name}
+Phone: ${phone}
+Business: ${business}
+Project: ${message}`
+  );
+
+  window.open(
+    `https://wa.me/60146942145?text=${text}`,
+    "_blank"
+  );
+};
   return (
     
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 text-gray-800">
@@ -249,9 +269,11 @@ export default function HomePage() {
 
     <div className="grid gap-4">
       <input
-        className="border rounded-lg px-4 py-3"
-        placeholder="Your Name"
-      />
+  className="border rounded-lg px-4 py-3"
+  placeholder="Your Name"
+  value={name}
+  onChange={(e) => setName(e.target.value)}
+/>
 
       <input
         className="border rounded-lg px-4 py-3"
@@ -269,9 +291,12 @@ export default function HomePage() {
         placeholder="Tell us about your project"
       />
 
-      <button className="bg-black text-white py-3 rounded-lg">
-        Send Inquiry
-      </button>
+      <button
+  onClick={sendToWhatsapp}
+  className="bg-black text-white py-3 rounded-lg"
+>
+  Send Inquiry
+</button>
     </div>
   </div>
 </section>
